@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:enchanted_golden_apple"
+    },
+    "title": "Why did you do this?",
+    "description": "Disenchant an enchanted golden apple for some reason?",
+    "frame": "task",
+    "show_toast": true,
+    "annouce_to_chat": true,
+    "hidden": true
+  },
+  "parent": "minecraft:story/enchant_item",
+  "criteria": {
+    "enchanted_golden_apple": {
+      "trigger": "wwtrdm:grindstone_used",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:enchanted_golden_apple"
+          ]
+        }
+      }
+    }
+  }
+}

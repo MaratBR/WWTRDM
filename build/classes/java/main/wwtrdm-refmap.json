@@ -1,0 +1,22 @@
+{
+  "mappings": {
+    "com/maratb/minecraft/wwtrdm/mixins/DisenchantingEnchantedGoldenAppleMixin": {
+      "<init>(ILnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/screen/ScreenHandlerContext;)V": "Lnet/minecraft/class_3803;<init>(ILnet/minecraft/class_1661;Lnet/minecraft/class_3914;)V",
+      "updateResult()V": "Lnet/minecraft/class_3803;method_16695()V"
+    },
+    "com/maratb/minecraft/wwtrdm/mixins/DamageTrackerMixin": {
+      "getDeathMessage": "Lnet/minecraft/class_1283;method_5548()Lnet/minecraft/class_2561;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "com/maratb/minecraft/wwtrdm/mixins/DisenchantingEnchantedGoldenAppleMixin": {
+        "<init>(ILnet/minecraft/entity/player/PlayerInventory;Lnet/minecraft/screen/ScreenHandlerContext;)V": "Lnet/minecraft/class_3803;<init>(ILnet/minecraft/class_1661;Lnet/minecraft/class_3914;)V",
+        "updateResult()V": "Lnet/minecraft/class_3803;method_16695()V"
+      },
+      "com/maratb/minecraft/wwtrdm/mixins/DamageTrackerMixin": {
+        "getDeathMessage": "Lnet/minecraft/class_1283;method_5548()Lnet/minecraft/class_2561;"
+      }
+    }
+  }
+}

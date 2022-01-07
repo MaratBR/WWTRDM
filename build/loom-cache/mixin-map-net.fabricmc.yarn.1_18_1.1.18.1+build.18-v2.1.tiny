@@ -1,0 +1,4 @@
+v1	named	intermediary
+FIELD	com/maratb/minecraft/wwtrdm/mixins/DamageTrackerMixin	Ljava/util/List;	recentDamage	field_5870
+FIELD	com/maratb/minecraft/wwtrdm/mixins/DisenchantingEnchantedGoldenAppleMixin	Lnet/minecraft/inventory/Inventory;	result	field_16773
+FIELD	com/maratb/minecraft/wwtrdm/mixins/DisenchantingEnchantedGoldenAppleMixin	Lnet/minecraft/inventory/Inventory;	input	field_16772
